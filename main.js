@@ -161,7 +161,7 @@ map = (function () {
         var zoom = max_zoom < map.getZoom() ? max_zoom : Math.floor(map.getZoom());
         var tileCoords = { x : long2tile(latlng.lng,zoom), y: lat2tile(latlng.lat,zoom), z: zoom };
 
-        var url = 'http://vector.mapzen.com/osm/all/' + zoom + '/' + tileCoords.x  + '/' + tileCoords.y + '.topojson?api_key=vector-tiles-HqUVidw';
+        var url = 'http://vector.mapzen.com/osm/all/' + zoom + '/' + tileCoords.x  + '/' + tileCoords.y + '.topojson?api_key=mapzen-jVtDTjh';
         return url;
     }
 
