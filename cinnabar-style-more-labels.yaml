@@ -232,7 +232,7 @@ cinnabar-colors:
         - &text_stroke_road4   white             # road stroke color minor road
         - &text_stroke_shield  '#D16768'         # road shield stroke color &highway_casing1
         - &townspot_sprite    townspot-l-rev     # depends on land color and text settings
-        - &text_font_family  'Open Sans'        # branding in asperational Unicode, yo (or Helvetica)
+        - &text_font_family  'Noto Sans Kannada'        # branding in asperational Unicode, yo (or Helvetica)
 
 textures:
     pois:
